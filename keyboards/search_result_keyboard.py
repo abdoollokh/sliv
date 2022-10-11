@@ -6,5 +6,4 @@ photo = types.InlineKeyboardButton('🍑 Bitta rasm sotib olish', callback_data=
 phone = types.InlineKeyboardButton('📱 Telefon raqamini topish', callback_data='buy_phone')
 messages = types.InlineKeyboardButton('🔞 Yozishmalarni sotib olish', callback_data='buy_messages')
 unlimited = types.InlineKeyboardButton('🔎 Cheksiz qidiruv', callback_data='buy_unlimited')
-uzpay = types.InlineKeyboardButton('🇺🇿 UzCard/HUMO orqali to`lov', callback_data='help')
-keyboard.add(archive, photo, messages, phone, unlimited, uzpay)
+keyboard.add(archive, photo, messages, phone, unlimited)

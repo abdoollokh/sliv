@@ -1,4 +1,5 @@
 from aiogram import types
+import json
 
 keyboard = types.InlineKeyboardMarkup(1)
 qiwi = types.InlineKeyboardButton('🥝 QIWI | 💳 karta', callback_data='method_qiwi')

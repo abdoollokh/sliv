@@ -254,7 +254,7 @@ async def check_payment(callback: types.CallbackQuery, state: FSMContext):
             payment_2.create(price, 'Archive')
             await callback.message.edit_text(f'<b>Поиск...</b>')
             await asyncio.sleep(5)
-            text = f'Bazadan topildi!\n\n<b>💵 To`lov: </b>{price}₽\n\n<b>To`lov turini tanlang 👇</b>'
+            text = f'Bazadan topildi!\n\n<b>💵 To`lov: </b>{price}₽\n\n<b>To`lov turini tanlang 👇\nUzCard/Humo orqali to`lov qilish uchun pastdan UzCard/Humoni tanlab, men to`lov qilmoqchiman deb yozing.</b>'
             await callback.message.edit_text(text, reply_markup=payment_methods_keyboard.keyboard)
             async with state.proxy() as data:
                 data['payment'] = payment_2

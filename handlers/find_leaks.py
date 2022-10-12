@@ -7,7 +7,7 @@ from utils import database
 
 @dp.message_handler(text='🔍 Bazadan qidirish 🔍')
 async def find_leaks(message: types.Message):
-    text=f'''👋 Salom, {message.from_user.full_name}\n\nBu bot har qanday odamning ijtimoiy tarmoqdagi profillari orqali shaxsiy ma`lumotlarini, yoki 🔞 rasm, videolarini topib beradi  😏\n\n🔎 Botga Instagram, Vkontakte yoki Telefon raqamni (Whatsapp, Telegram, Viberdan qidirsh uchun) yuboring  🔞👇'''
+    text=f'''👋 Salom, {message.from_user.full_name}\n\nBu bot har qanday odamning ijtimoiy tarmoqdagi profillari orqali shaxsiy ma`lumotlarini, yoki 🔞 uyatsiz rasm, videolarini topib beradi  😏\n\n🔎 Botga Instagram, Vkontakte yoki Telefon raqamni (Whatsapp, Telegram, Viberdan qidirsh uchun) yuboring  🔞👇'''
     photo='https://i.postimg.cc/x14b1PV7/start.png'
     await message.answer_photo(photo, text)
     await message.answer('🔥 Qayerdan izlashimizni tanlang', reply_markup=social_check_keyboard.keyboard)

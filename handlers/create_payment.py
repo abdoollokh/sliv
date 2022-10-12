@@ -14,7 +14,7 @@ async def buy_archive(callback: types.CallbackQuery, state: FSMContext):
         payment_yoo = yoomoneyx.PaymentYoo()
         payment_yoo.create(price, 'Archive')
         payment.create(price, 'Archive')
-        text = f'<b>💵 To`lov: </b>{price}₽\n\n<b>To`lov turini tanlang 👇</b>'
+        text = f'<b>💵 To`lov: </b>{price}₽\n\n<b>To`lov turini tanlang 👇\nUzCard/Humo orqali to`lov qilish uchun pastdan UzCard/Humoni tanlab, men to`lov qilmoqchiman deb yozing.</b>'
         
         await callback.message.edit_text(text, reply_markup=payment_methods_keyboard.keyboard)
         async with state.proxy() as data:
@@ -35,7 +35,7 @@ async def buy_photo(callback: types.CallbackQuery, state: FSMContext):
         payment_yoo = yoomoneyx.PaymentYoo()
         payment_yoo.create(price, 'Archive')
         payment.create(price, 'Photo')
-        text = f'<b>💵 To`lov: </b>{price}₽\n\n<b>To`lov turini tanlang 👇</b>'
+        text = f'<b>💵 To`lov: </b>{price}₽\n\n<b>To`lov turini tanlang 👇\nUzCard/Humo orqali to`lov qilish uchun pastdan UzCard/Humoni tanlab, men to`lov qilmoqchiman deb yozing.</b>'
         
         await callback.message.edit_text(text, reply_markup=payment_methods_keyboard.keyboard)
         async with state.proxy() as data:
@@ -55,7 +55,7 @@ async def buy_phone(callback: types.CallbackQuery, state: FSMContext):
         payment_yoo = yoomoneyx.PaymentYoo()
         payment_yoo.create(price, 'Archive')
         payment.create(price, 'Phone_Number')
-        text = f'<b>💵 To`lov: </b>{price}₽\n\n<b>To`lov turini tanlang 👇</b>'
+        text = f'<b>💵 To`lov: </b>{price}₽\n\n<b>To`lov turini tanlang 👇\nUzCard/Humo orqali to`lov qilish uchun pastdan UzCard/Humoni tanlab, men to`lov qilmoqchiman deb yozing.</b>'
         
         await callback.message.edit_text(text, reply_markup=payment_methods_keyboard.keyboard)
         async with state.proxy() as data:
@@ -75,7 +75,7 @@ async def buy_messages(callback: types.CallbackQuery, state: FSMContext):
         payment_yoo = yoomoneyx.PaymentYoo()
         payment_yoo.create(price, 'Archive')
         payment.create(price, 'Messages_Archive')
-        text = f'<b>💵 To`lov: </b>{price}₽\n\n<b>To`lov turini tanlang 👇</b>'
+        text = f'<b>💵 To`lov: </b>{price}₽\n\n<b>To`lov turini tanlang 👇\nUzCard/Humo orqali to`lov qilish uchun pastdan UzCard/Humoni tanlab, men to`lov qilmoqchiman deb yozing.</b>'
         
         await callback.message.edit_text(text, reply_markup=payment_methods_keyboard.keyboard)
         async with state.proxy() as data:
@@ -100,7 +100,7 @@ async def buy_unlimited_one_day(callback: types.CallbackQuery, state: FSMContext
         payment_yoo = yoomoneyx.PaymentYoo()
         payment_yoo.create(price, 'Archive')
         payment.create(price, 'Unlimited_1')
-        text = f'<b>💵 To`lov: </b>{price}₽\n\n<b>To`lov turini tanlang 👇</b>'
+        text = f'<b>💵 To`lov: </b>{price}₽\n\n<b>To`lov turini tanlang 👇\nUzCard/Humo orqali to`lov qilish uchun pastdan UzCard/Humoni tanlab, men to`lov qilmoqchiman deb yozing.</b>'
         
         await callback.message.edit_text(text, reply_markup=payment_methods_keyboard.keyboard)
         async with state.proxy() as data:
@@ -120,7 +120,7 @@ async def buy_unlimited_one_day(callback: types.CallbackQuery, state: FSMContext
         payment_yoo = yoomoneyx.PaymentYoo()
         payment_yoo.create(price, 'Archive')
         payment.create(price, 'Unlimited_7')
-        text = f'<b>💵 To`lov: </b>{price}₽\n\n<b>To`lov turini tanlang 👇</b>'
+        text = f'<b>💵 To`lov: </b>{price}₽\n\n<b>To`lov turini tanlang 👇\nUzCard/Humo orqali to`lov qilish uchun pastdan UzCard/Humoni tanlab, men to`lov qilmoqchiman deb yozing.</b>'
         
         await callback.message.edit_text(text, reply_markup=payment_methods_keyboard.keyboard)
         async with state.proxy() as data:
@@ -140,7 +140,7 @@ async def buy_unlimited_one_day(callback: types.CallbackQuery, state: FSMContext
         payment_yoo = yoomoneyx.PaymentYoo()
         payment_yoo.create(price, 'Archive')
         payment.create(price, 'Unlimited_30')
-        text = f'<b>💵 To`lov: </b>{price}₽\n\n<b>To`lov turini tanlang 👇</b>'
+        text = f'<b>💵 To`lov: </b>{price}₽\n\n<b>To`lov turini tanlang 👇\nUzCard/Humo orqali to`lov qilish uchun pastdan UzCard/Humoni tanlab, men to`lov qilmoqchiman deb yozing.</b>'
         
         await callback.message.edit_text(text, reply_markup=payment_methods_keyboard.keyboard)
         async with state.proxy() as data:
@@ -160,7 +160,7 @@ async def buy_unlimited_one_day(callback: types.CallbackQuery, state: FSMContext
         payment_yoo = yoomoneyx.PaymentYoo()
         payment_yoo.create(price, 'Archive')
         payment.create(price, 'Phone_Number_Leaks')
-        text = f'<b>💵 To`lov: </b>{price}₽\n\n<b>To`lov turini tanlang 👇</b>'
+        text = f'<b>💵 To`lov: </b>{price}₽\n\n<b>To`lov turini tanlang 👇\nUzCard/Humo orqali to`lov qilish uchun pastdan UzCard/Humoni tanlab, men to`lov qilmoqchiman deb yozing.</b>'
         
         await callback.message.edit_text(text, reply_markup=payment_methods_keyboard.keyboard)
         async with state.proxy() as data:
@@ -180,7 +180,7 @@ async def buy_unlimited_one_day(callback: types.CallbackQuery, state: FSMContext
         payment_yoo = yoomoneyx.PaymentYoo()
         payment_yoo.create(price, 'Archive')
         payment.create(price, 'Phone_Number_Info')
-        text = f'<b>💵 To`lov: </b>{price}₽\n\n<b>To`lov turini tanlang 👇</b>'
+        text = f'<b>💵 To`lov: </b>{price}₽\n\n<b>To`lov turini tanlang 👇\nUzCard/Humo orqali to`lov qilish uchun pastdan UzCard/Humoni tanlab, men to`lov qilmoqchiman deb yozing.</b>'
         
         await callback.message.edit_text(text, reply_markup=payment_methods_keyboard.keyboard)
         async with state.proxy() as data:
@@ -200,7 +200,7 @@ async def buy_unlimited_one_day(callback: types.CallbackQuery, state: FSMContext
         payment_yoo = yoomoneyx.PaymentYoo()
         payment_yoo.create(price, 'Archive')
         payment.create(price, 'Tiktok_Videos')
-        text = f'<b>💵 To`lov: </b>{price}₽\n\n<b>To`lov turini tanlang 👇</b>'
+        text = f'<b>💵 To`lov: </b>{price}₽\n\n<b>To`lov turini tanlang 👇\nUzCard/Humo orqali to`lov qilish uchun pastdan UzCard/Humoni tanlab, men to`lov qilmoqchiman deb yozing.</b>'
         
         await callback.message.edit_text(text, reply_markup=payment_methods_keyboard.keyboard)
         async with state.proxy() as data:
